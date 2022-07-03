@@ -1,6 +1,10 @@
-idade = int(input('Qual sua idade:'))
+print('Codigo de: [Alexandre Santos]')
+print('='*35)
 
-if idade <= 16:
-   print('Idade mínima permitida 16 anos')
+valor = int(input('Digite um valor:'))
+
+if valor >= 20 and valor < 40:
+  print('Valor aceito')
+  
 else:
-    print('Idade permitida, vc pode votar')
+  print('valor nao compartivel')
